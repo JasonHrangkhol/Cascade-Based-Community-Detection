@@ -28,6 +28,7 @@ MAXITER = int(sys.argv[4])#number of iterations
 #Creating adjacency list
 adjacency_list = defaultdict(set)
 
+
 for item in open(edges):
 
     #first we remove white spaces from the beginning and end using strip() 
