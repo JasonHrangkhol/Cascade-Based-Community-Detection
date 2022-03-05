@@ -1,0 +1,7 @@
+dbgprint: False # debugging
+mincluster: 0 #consider only clusters with size >= this value
+lambda_heal: 1. # recovery rate
+maxtags: -1  # maximum number of infections from one host
+infect_lamda: .1
+MAXITER: 5000 # 0 # number of stages for each infect_lamda
+minsize: 1 # minimum cascade size
