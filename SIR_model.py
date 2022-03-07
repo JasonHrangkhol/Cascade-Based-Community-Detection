@@ -21,6 +21,7 @@ mincluster = cfg['mincluster']#minimum size of cluster
 lambda_heal = cfg['lambda_heal']#recovery rate
 minsize = cfg['minsize']#minimum size of cascade
 
+
 edges = sys.argv[2] # file with edges
 rate_param = sys.argv[3] # parameter to generate infections
 MAXITER = int(sys.argv[4])#number of iterations
